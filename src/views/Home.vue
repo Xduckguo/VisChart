@@ -1,15 +1,9 @@
-<!--
- 描述: 酷屏首页模板
- 作者: Jack Chen
- 日期: 2020-04-29
--->
-
 <template>
   <div class="home-container">
   	<div class="wrap" ref="editor">
       <div class="top"></div>
       <!-- ECharts组件 -->
-
+      <RingPie/>
       <div class="divider"></div>
 
     </div>
@@ -19,10 +13,10 @@
 
 <script>
 import { screenSize } from '@/assets/js/utils'
-
+import RingPie from '@/components/ringPie/RingPie.vue'
 export default {
   name: 'Home',
-  components: {},
+  components: {RingPie},
   data() {
   	return {
   		

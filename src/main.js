@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import echarts from 'echarts'
 
 import VueParticles from 'vue-particles'
+
+Vue.prototype.$echarts = echarts
 
 import '@/assets/styles/base.scss'
 import '@/assets/styles/common.scss'
