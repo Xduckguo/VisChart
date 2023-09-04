@@ -34,7 +34,6 @@ export default {
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    -webkit-backface-visibility: hidden;
     -webkit-animation: imgAnimation 48s linear infinite 0s;
     -moz-animation: imgAnimation 48s linear infinite 0s;
     -o-animation: imgAnimation 48s linear infinite 0s;

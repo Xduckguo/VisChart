@@ -1,14 +1,12 @@
 <template>
-  <div id="app" v-cloak>
+  <div id="app">
     <router-view/>
   </div>
 </template>
 
 <script>
-import BgAnimation from './components/BgAnimation/BgAnimation.vue';
-import Login from '../src/views/Login.vue';
 export default {
-  components: { BgAnimation, Login },
+  components: { },
   name: "App"
 };
 </script>
