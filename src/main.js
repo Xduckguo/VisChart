@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import echarts from 'echarts'
-
+import Components from './components'
 import VueParticles from 'vue-particles'
 
 Vue.prototype.$echarts = echarts
@@ -20,6 +20,7 @@ import '@/assets/iconfont/iconfont.css'
 //import { createApp } from 'vue'
 
 Vue.use(VueParticles)
+Vue.use(Components)
 
 new Vue({
     el: '#app',

@@ -66,11 +66,12 @@
 <script>
 
 import { screenSize } from '@/assets/js/utils'
-import BgAnimation from '@/components/BgAnimation/BgAnimation.vue'
+//import BgAnimation from '@/components/BgAnimation/BgAnimation.vue'
 
     export default {
         name: 'Login',
-        components: { BgAnimation },
+//        components: { BgAnimation },
+    components: {  },
         data() {
             return {
                 userName: 'admin',

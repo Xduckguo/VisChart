@@ -13,10 +13,11 @@
 
 <script>
 import { screenSize } from '@/assets/js/utils'
-import RingPie from '@/components/ringPie/RingPie.vue'
+//import RingPie from '@/components/ringPie/RingPie.vue'
 export default {
   name: 'Home',
-  components: {RingPie},
+//  components: {RingPie},
+components: { },
   data() {
   	return {
   		
