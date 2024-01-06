@@ -40,6 +40,7 @@ export default {
     -ms-animation: imgAnimation 48s linear infinite 0s;
     animation: imgAnimation 48s linear infinite 0s;
 // 每12秒逐渐播放下一张图片
+// &表示嵌套的上一级
     &:nth-child(1) {
       background-image: url(../.././assets/img/bg-4.jpg);
     }
